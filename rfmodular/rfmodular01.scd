@@ -29,35 +29,52 @@ SynthDef(\modular01, { |out, freq = 50, dist = 2|
   var env01 = EnvGen.kr(Env.perc);
 
   // Sinusoïdal LFO with oscillating between min and max
-  var lfo01 = { |time = 0.25, min = 0, max = 1|
-    LFPar.kr(freq: 1/time, iphase: 0.5, mul: (max - min) / 2, add: (min + max) / 2)
+  var lfo = { |time = 0.25, min = 0, max = 1|
+    LFPar.kr(1/time, iphase: 0.5, mul: (max - min) / 2, add: (min + max) / 2)
   };
 
   //
   // [Audio processing]
   //
-  // Resonant low pass filter with an adaptive Q
-  var rlpf01 = { |sound, freq| RLPF.ar(sound, freq, 50/(freq/4)) };
 
-  // Turn a mono sound to a width controlled stereo signal
+  // Turn a mono sound to a width controlled stereo signal,
   // by adding a small delay to the left channel.
-  // arg width: should be somewhere between 0 (mid) and 100 (side)
+  // arg width: should be somewhere between 0 (mid) and 1 (side)
   var widel = { |sound, width = 0.005, max = 0.01|
-    [DelayN.ar(sound, max, width * max / 100), sound]
+    [DelayN.ar(sound, max, width * max), sound]
   };
 
-  // Fat PWM
+  // Fat PWM + PM
+  var lfo01, lfo02, lfo03;
+  var osc01, osc02;
   var sound1;
-  sound1 = Pulse.ar(freq, width: lfo01.(8, 0.45, 0.55), mul: dist);
-  sound1 = rlpf01.(sound1, freq: MouseX.kr(20, 1000)).fold2(1) * 0.4;
-  sound1 = LPF.ar(sound1, freq: MouseX.kr(20, 10000));
-  sound1 = widel.(sound1, width: lfo01.(time: 16, min: 40, max: 100), max: 0.02);
+
+  lfo01 = lfo.(16);
+  lfo02 = lfo.(16, min: 0.42, max: 0.58);  // pulse width
+  lfo03 = lfo.(16, min: 0.40);             // stereo width
+
+  osc01 = Pulse.ar(freq + 0.2, width: lfo02);
+  osc02 = SinOsc.ar(freq - 0.2, phase: lfo02);
+
+  sound1 = (osc01 * 0.5) + (osc02 * (1 - 0.5));
+  sound1 = RLPFD.ar(sound1, ffreq: MouseX.kr(30, 6000), res: MouseY.kr(0, 0.9));
+  sound1 = (sound1 * dist).fold2(1);
+  sound1 = LPF.ar(sound1, 15000);
+  sound1 = widel.(sound1, width: lfo03, max: 0.03);
+
+  // sound1 = Compander.ar(sound1, sound1,
+  //   thresh: 0.2,
+  //   slopeBelow: 2,
+  //   slopeAbove: 0,
+  //   clampTime: 0.1,
+  //   relaxTime: 0.4
+  // ) * 0.8;
 
   Out.ar(out, sound1);
 }).add;
 
 // Simple external mouse control for bus usage
-SynthDef(\mouseControl, { |out, min = 1, max = 100|
+SynthDef(\mouseControl, { |out, min = 2, max = 10|
   Out.kr(out, MouseY.kr(min, max));
 }).add;
 )
@@ -95,5 +112,7 @@ Pmono(\modular01,
 
 - How to trigger an EnvGen from outside, without reinstantiating the Synth
   (generate the gate signal in Pmono)
+
+- Have to make a class instead of a var containing a function?
 
 */
