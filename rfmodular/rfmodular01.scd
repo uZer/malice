@@ -21,12 +21,12 @@ TempoClock.default.tempo = ~tempo;
 
 // "Modular" synth for Pmono usage.
 // Should not be stopped or have any doneActions
-SynthDef(\modular01, { |out, freq = 50, dist = 2|
+SynthDef(\modular01, { |out, freq = 50, dist = 2, t_gate = 1|
 
   //
   // [Control functions and tools]
   //
-  var env01 = EnvGen.kr(Env.perc);
+  var env01 = EnvGen.kr(Env.asr(releaseTime: MouseX.kr(0.1, 1)), t_gate);
 
   // Sinusoïdal LFO with oscillating between min and max
   var lfo = { |time = 0.25, min = 0, max = 1|
@@ -46,7 +46,7 @@ SynthDef(\modular01, { |out, freq = 50, dist = 2|
 
   // Fat PWM + PM
   var lfo01, lfo02, lfo03;
-  var osc01, osc02;
+  var osc01, osc02, osc03, oscList, sel;
   var sound1;
 
   lfo01 = lfo.(16);
@@ -55,12 +55,18 @@ SynthDef(\modular01, { |out, freq = 50, dist = 2|
 
   osc01 = Pulse.ar(freq + 0.2, width: lfo02);
   osc02 = SinOsc.ar(freq - 0.2, phase: lfo02);
+  osc03 = Saw.ar(freq);
 
-  sound1 = (osc01 * 0.5) + (osc02 * (1 - 0.5));
-  sound1 = RLPFD.ar(sound1, ffreq: MouseX.kr(30, 6000), res: MouseY.kr(0, 0.9));
+  oscList = List.new(3);
+  oscList.add(osc01);
+  oscList.add(osc02);
+  oscList.add(osc03);
+
+  sound1 = (oscList[0] * 0.5) + (oscList[1] * (1 - 0.5));
+  sound1 = RLPFD.ar(sound1, ffreq: MouseX.kr(70, 9000), res: MouseY.kr(0, 0.9));
   sound1 = (sound1 * dist).fold2(1);
   sound1 = LPF.ar(sound1, 15000);
-  sound1 = widel.(sound1, width: lfo03, max: 0.03);
+  sound1 = widel.(sound1, width: lfo03, max: 0.03).tanh;
 
   // sound1 = Compander.ar(sound1, sound1,
   //   thresh: 0.2,
@@ -70,27 +76,34 @@ SynthDef(\modular01, { |out, freq = 50, dist = 2|
   //   relaxTime: 0.4
   // ) * 0.8;
 
-  Out.ar(out, sound1);
+  Out.ar(out, sound1 * env01 * 0.2);
 }).add;
 
 // Simple external mouse control for bus usage
 SynthDef(\mouseControl, { |out, min = 2, max = 10|
   Out.kr(out, MouseY.kr(min, max));
 }).add;
+
 )
+
 
 // Client side control /////////////////////////////////////////////////////////
 (
-~bus = Bus.control(s, 1);
-~mouse = Synth(\mouseControl, [out: ~bus, min: 1, max: 50]);
-Pmono(\modular01,
-  \degree, Pseq([8, 1, -5, -4, -5], inf),
-  \scale, Scale.minor,
-  \mtranspose, -12,
-  \dur, Pseq([0.5, 0.25, 0.5, 0.25, 0.5], inf),
-  \dist, ~bus.asMap,
-).play(quant: 1);
+~mouseControlBus = Bus.control(s, 1);
+~mouseControl = Synth(\mouseControl, [out: ~mouseControlBus, min: 1, max: 50]);
+
+Scale.directory;
+3.do{PmonoArtic(\modular01,
+  \degree, Pseq([3, 14, 16.rand], inf, 2.rand),
+  \scale, Scale.mixolydian,
+  \mtranspose, [-12, -24].rand,
+  \gate, 1,
+  \legato, 1,
+  \dur, Pseq([0.25, 0.5, 0.5], inf, offset: 2.rand),
+  \dist, ~mouseControlBus.asMap,
+).play(quant: 1);}
 )
+
 
 // Clear
 (
@@ -100,15 +113,6 @@ Pmono(\modular01,
 
 // Questions ///////////////////////////////////////////////////////////////////
 /*
-
-- Clock divider for a Pseq of \dur? (so I don't have to change each value)
-
-- multichannel bus: how to select one specific channel of a bus ? ~bus[1].asMap
-
-- What is lag?
-
-- Other stuff to play with polar width
-  (PanAZ not doing what I though or I don't understand it)
 
 - How to trigger an EnvGen from outside, without reinstantiating the Synth
   (generate the gate signal in Pmono)
