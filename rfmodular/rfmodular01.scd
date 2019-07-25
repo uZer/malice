@@ -6,7 +6,6 @@ Server.default = s = Server.local;
 s.recHeaderFormat = "wav";
 s.options.sampleRate = 44100;
 s.options.memSize = 65536;
-s.options.numWireBufs = 128;
 s.boot;
 
 (
@@ -93,7 +92,11 @@ SynthDef(\mouseControl, { |out, min = 2, max = 10|
 ~mouseControl = Synth(\mouseControl, [out: ~mouseControlBus, min: 1, max: 50]);
 
 Scale.directory;
-3.do{PmonoArtic(\modular01,
+~group = Group.new;
+)
+
+(
+1.do{PmonoArtic(\modular01,
   \degree, Pseq([3, 14, 16.rand], inf, 2.rand),
   \scale, Scale.mixolydian,
   \mtranspose, [-12, -24].rand,
@@ -101,6 +104,7 @@ Scale.directory;
   \legato, 1,
   \dur, Pseq([0.25, 0.5, 0.5], inf, offset: 2.rand),
   \dist, ~mouseControlBus.asMap,
+  \group, ~group,
 ).play(quant: 1);}
 )
 
