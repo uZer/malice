@@ -1,14 +1,10 @@
 
 (
-
-var t = { |beat = 1, myClock = 60|
-  ((60 / myClock) * beat)
-};
-SynthDef.new(\synth1, { |note1 = 43, myClock = 60|
+SynthDef.new(\synth1, { |note1 = 43, tempo = 1|
   // Banks
-  var beat1 = [2, 3, 2, 3, 2, 3, 1, 1, 3, 2, 2, 1, 2, 2, 1, 2].collect(t.(_, myClock));
-  var beat2 = [1, 2, 2].collect(t.(_, myClock));
-  var beat3 = [1, 1, 1, 2].collect(t.(_, myClock));
+  var beat1 = [2, 3, 2, 3, 2, 3, 1, 1, 3, 2, 2, 1, 2, 2, 1, 2] / tempo;
+  var beat2 = [1, 2, 2] / tempo;
+  var beat3 = [1, 1, 1, 2] / tempo;
 
   var note2 = note1;
 
@@ -76,19 +72,38 @@ SynthDef.new(\synth1, { |note1 = 43, myClock = 60|
 }).add
 )
 
-a.set(\tempo, 40);
 (
-Pmono(
-  \synth1,
+// ~sound=Pmono(
+//   \synth1,
+//   \note1, Pseq(43 + [0, -4, 3, 2], inf),
+//   \dur, 1,
+// ).play;
+// ~sound
+
+
+~synth=Synth(\synth1);
+t = TempoBusClock.new(~synth);
+
+~stream=Pbind(*[
+  type: \set,
+  id: ~synth.nodeID,
+  args: #[
+    \note1
+  ],
   \note1, Pseq(43 + [0, -4, 3, 2], inf),
-  \dur, 1,
-  \myClock, {(TempoClock.default.tempo * 60)}
-).play(quant: 1);
+  \dur, 1
+]).play(t);
+
+
+// ~sound.stop;
+
+t.tempo=0.9;
 )
+// TempoClock.default.tempo = 90/120;
 
 
-TempoClock.default.tempo = 90/120;
-
+// #[] = immutable array
+// *[key: value] -> \key, \value
 
 // TODO: passer sur TempoBusClock
 
