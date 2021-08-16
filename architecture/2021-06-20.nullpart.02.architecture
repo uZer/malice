@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T16:51:54.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="BQvXk6wZpak-OD0MDOWl" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-16T23:15:17.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="A7eiKqa00qDj4nT9LaLH" version="14.8.5" type="github" pages="4">
   <diagram id="XP_kTpTEtAxSxAnOR1i5" name="audio">
-    <mxGraphModel dx="3951" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="4886" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="19livJp8lsKimSNFlouv-0" />
         <mxCell id="19livJp8lsKimSNFlouv-1" parent="19livJp8lsKimSNFlouv-0" />
@@ -964,7 +964,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="control/sync" id="FeZtcs3ZnB3tg5oqWUTG">
-    <mxGraphModel dx="3342" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3996" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="YGCqMv62uJQv4ETntP41-0" />
         <mxCell id="YGCqMv62uJQv4ETntP41-1" parent="YGCqMv62uJQv4ETntP41-0" />
@@ -1805,19 +1805,19 @@
         <mxCell id="vnkOv9WOGA3xgOvL4DPa-2" value="8" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeWidth=1;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fillColor=#000000;fontColor=#FFFFFF;strokeColor=none;" parent="YGCqMv62uJQv4ETntP41-1" vertex="1">
           <mxGeometry x="770" y="330" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-1" value="" style="group" vertex="1" connectable="0" parent="YGCqMv62uJQv4ETntP41-1">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-1" value="" style="group" parent="YGCqMv62uJQv4ETntP41-1" vertex="1" connectable="0">
           <mxGeometry x="1280" y="680" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=5;fontColor=#990000;fillColor=#FFCCCC;strokeColor=#990000;" vertex="1" parent="d2eLrBHq48xnXps_qnkm-1">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=5;fontColor=#990000;fillColor=#FFCCCC;strokeColor=#990000;" parent="d2eLrBHq48xnXps_qnkm-1" vertex="1">
           <mxGeometry width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-3" value="midi" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fontColor=#ffffff;" vertex="1" parent="d2eLrBHq48xnXps_qnkm-1">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-3" value="midi" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fontColor=#ffffff;" parent="d2eLrBHq48xnXps_qnkm-1" vertex="1">
           <mxGeometry x="50" y="90" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-4" value="d2v midi chain" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=left;spacing=0;spacingLeft=5;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="d2eLrBHq48xnXps_qnkm-1">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-4" value="d2v midi chain" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=left;spacing=0;spacingLeft=5;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="d2eLrBHq48xnXps_qnkm-1" vertex="1">
           <mxGeometry y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-5" value="midi" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fontColor=#ffffff;" vertex="1" parent="d2eLrBHq48xnXps_qnkm-1">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-5" value="midi" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fontColor=#ffffff;" parent="d2eLrBHq48xnXps_qnkm-1" vertex="1">
           <mxGeometry x="50" y="10" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VVSx7dAj-REyfQWEllbw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;fontSize=10;fontColor=#660000;endArrow=none;endFill=0;strokeColor=#001DBC;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;strokeWidth=3;fillColor=#0050ef;" parent="YGCqMv62uJQv4ETntP41-1" source="oqMYwy2kmwgyJ7Ke0CwX-26" target="d2eLrBHq48xnXps_qnkm-5" edge="1">
@@ -1830,7 +1830,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;fontSize=10;fontColor=#660000;endArrow=none;endFill=0;strokeColor=#001DBC;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;strokeWidth=3;fillColor=#0050ef;" edge="1" parent="YGCqMv62uJQv4ETntP41-1" source="YUIzuygGBI95G2VJ2ZNf-16" target="d2eLrBHq48xnXps_qnkm-3">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;fontSize=10;fontColor=#660000;endArrow=none;endFill=0;strokeColor=#001DBC;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;strokeWidth=3;fillColor=#0050ef;" parent="YGCqMv62uJQv4ETntP41-1" source="YUIzuygGBI95G2VJ2ZNf-16" target="d2eLrBHq48xnXps_qnkm-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="860" />
@@ -1850,7 +1850,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d2eLrBHq48xnXps_qnkm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;fontSize=10;fontColor=#660000;startArrow=none;endArrow=none;endFill=0;strokeColor=#001DBC;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;strokeWidth=3;fillColor=#0050ef;" edge="1" parent="YGCqMv62uJQv4ETntP41-1" target="mpspRs-XrObsA609ZTXA-7">
+        <mxCell id="d2eLrBHq48xnXps_qnkm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;fontSize=10;fontColor=#660000;startArrow=none;endArrow=none;endFill=0;strokeColor=#001DBC;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;strokeWidth=3;fillColor=#0050ef;" parent="YGCqMv62uJQv4ETntP41-1" target="mpspRs-XrObsA609ZTXA-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="1010" as="sourcePoint" />
             <mxPoint x="70" y="660" as="targetPoint" />
@@ -1864,7 +1864,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cLCDHh67K8Mf9NUFJlog" name="video">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6L0RJv9F0CWr7IYS4M98-0" />
         <mxCell id="6L0RJv9F0CWr7IYS4M98-1" parent="6L0RJv9F0CWr7IYS4M98-0" />
@@ -1872,107 +1872,107 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5Rj8Oek5OZKnB8cg4xM5" name="electrical">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mce35-NrxpQI2gHPuivR-0" />
         <mxCell id="mce35-NrxpQI2gHPuivR-1" parent="mce35-NrxpQI2gHPuivR-0" />
-        <mxCell id="7_-flfbv4DGbT5UDeODw-1" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;douleur2vivre&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=15;spacing=0;spacingTop=-24;labelBackgroundColor=#EA6B66;fontColor=#FFFFFF;labelBorderColor=#990000;spacingLeft=0;strokeColor=#990000;fillColor=#FFF0F0;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-1" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;douleur2vivre&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=15;spacing=0;spacingTop=-24;labelBackgroundColor=#EA6B66;fontColor=#FFFFFF;labelBorderColor=#990000;spacingLeft=0;strokeColor=#990000;fillColor=#FFF0F0;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="280" y="40" width="200" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-0" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;schematicwizard&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=15;spacing=0;spacingTop=-24;labelBackgroundColor=#EA6B66;fontColor=#FFFFFF;labelBorderColor=#990000;spacingLeft=0;strokeColor=#990000;fillColor=#FFF0F0;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-0" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;schematicwizard&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=15;spacing=0;spacingTop=-24;labelBackgroundColor=#EA6B66;fontColor=#FFFFFF;labelBorderColor=#990000;spacingLeft=0;strokeColor=#990000;fillColor=#FFF0F0;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="40" y="40" width="200" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-0" value="modulaire (1)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-0" value="modulaire (1)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-1" value="modulaire (2)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-1" value="modulaire (2)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-2" value="ms20" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-2" value="ms20" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-3" value="digitakt" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-3" value="digitakt" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-4" value="pc aby" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-4" value="pc aby" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-5" value="écran" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-5" value="écran" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-6" value="beatstep terre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-6" value="beatstep terre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vw36PYbO_s6PV4zBgPZh-7" value="keylab88" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="vw36PYbO_s6PV4zBgPZh-7" value="keylab88" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yKRKYaRL_Dp0NYhJipB--0" value="laptop rfoid" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="yKRKYaRL_Dp0NYhJipB--0" value="laptop rfoid" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yKRKYaRL_Dp0NYhJipB--1" value="laptop ovoid" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="yKRKYaRL_Dp0NYhJipB--1" value="laptop ovoid" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yKRKYaRL_Dp0NYhJipB--3" value="focusrite 18i20" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="yKRKYaRL_Dp0NYhJipB--3" value="focusrite 18i20" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yKRKYaRL_Dp0NYhJipB--4" value="boîtier spdif" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="yKRKYaRL_Dp0NYhJipB--4" value="boîtier spdif" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="640" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-2" value="edirol ua-101" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-2" value="edirol ua-101" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-3" value="eris e8 (1)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-3" value="eris e8 (1)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="680" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-4" value="eris e8 (2)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-4" value="eris e8 (2)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="720" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-6" value="minitel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-6" value="minitel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="880" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-7" value="laptop" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-7" value="laptop" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-8" value="focusrite 18i8" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-8" value="focusrite 18i8" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-9" value="yamaha (1)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-9" value="yamaha (1)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-10" value="yamaha&amp;nbsp;(2)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-10" value="yamaha&amp;nbsp;(2)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-11" value="sq64" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-11" value="sq64" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-12" value="model:cycles" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-12" value="model:cycles" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-13" value="p6" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-13" value="p6" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-14" value="wergstat" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-14" value="wergstat" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-15" value="neutron" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-15" value="neutron" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-16" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-16" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-17" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-17" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-18" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-18" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-19" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-19" value="autre" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="320" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7_-flfbv4DGbT5UDeODw-20" value="vp" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="7_-flfbv4DGbT5UDeODw-20" value="vp" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="760" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u6EBswT-kcQhaBJD-iuP-0" value="hub usb" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="mce35-NrxpQI2gHPuivR-1">
+        <mxCell id="u6EBswT-kcQhaBJD-iuP-0" value="hub usb" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#F19C99;fontColor=#990000;strokeColor=#990000;" parent="mce35-NrxpQI2gHPuivR-1" vertex="1">
           <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
