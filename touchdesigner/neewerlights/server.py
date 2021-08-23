@@ -19,25 +19,31 @@ class NeewerServer:
         :param listenAddress: Listening address for the server.
         :param listenPort: Listening port for the server.
         """
-        self._btconnection = None
-        self._udpsocket = None
+        self._btConnection = None
+        self._btResponseDelegate = None
+        self._udpSocket = None
         self.neewerAddress = neewerAddress
         self.listenAddress = listenAddress
         self.listenPort = listenPort
 
 
     def startUDPServer(self):
+        """
+        Open a listening socket to receive UDP messages.
+        Each message is passed to the neewer device.
+        """
+
         logging.info("Starting UDP server...")
 
         try:
-            self._socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            self._socket.bind((self.listenAddress, self.listenPort))
+            self._udpSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            self._udpSocket.bind((self.listenAddress, self.listenPort))
             logging.info('UDP Server started.')
             logging.info('Please send your messages to {}:{}'.format(
                 self.listenAddress, self.listenPort
             ))
-            while(True):
-                addr = self._socket.recvfrom(1024)
+            while True:
+                addr = self._udpSocket.recvfrom(1024)
                 command = addr[0]
                 address = addr[1]
                 logging.debug("{} - {}".format(address, command))
@@ -45,7 +51,7 @@ class NeewerServer:
 
         except Exception as e:
             logging.error('UDP Server failed: {}'.format(e))
-            self._socket = None
+            self._udpSocket = None
             return False
 
         return True
@@ -53,26 +59,40 @@ class NeewerServer:
 
     def stopUDPServer(self):
         """
-        Stop receiving UDP messages
+        Stop socket receiving UDP messages
         """
+
         logging.info("Stopping UDP Server...")
 
         try:
-            self._socket.close()
+            self._udpSocket.close()
 
         except Exception:
             pass
 
-        self._socket = None
+        self._udpSocket = None
 
 
     def neewerConnect(self, btAdapter=0):
+        """
+        Connect to a Neewer RGB Lamp
+
+        :param btAdapter: Bluetooth adapter ID. Defaults to 0
+        """
+
         logging.debug("Connecting to Neewer device...")
 
         try:
+            # Create connection and response delegate object
             connection = btle.Peripheral(self.neewerAddress,
                                          btle.ADDR_TYPE_RANDOM, btAdapter)
-            self._btconnection = connection.withDelegate(self)
+
+            # According to the source code, setDelegate is deprecated
+            # https://github.com/IanHarvey/bluepy/blob/master/bluepy/btle.py#L413
+            # withDelegate does the same
+            self._btResponseDelegate = neewerResponseDelegate()
+            self._btConnection = connection.withDelegate(self._btResponseDelegate)
+
             logging.info('Connected to Neewer device {}'.format(
                 self.neewerAddress
             ))
@@ -88,27 +108,37 @@ class NeewerServer:
         """
         Disconnect from Neewer Device
         """
+
         logging.debug("Disconnecting...")
 
         try:
-            self._btconnection.disconnect()
+            self._btConnection.disconnect()
 
         except btle.BTLEException:
             pass
 
-        self._btconnection = None
+        self._btConnection = None
 
 
-    def neewerSend(self, message, handle=14):
+    def neewerSend(self, message, cHandle=14):
         """
         Send bytes to Neewer Device
 
         :param message: bytes to pass to the device
-        :param handle: handle to use to communicate
+        :param cHandle: handle (int) to use to communicate
         """
 
         try:
-            self._btconnection.writeCharacteristic(handle, message)
+            self._btConnection.writeCharacteristic(cHandle, message)
+
+            ## Should be already called on it's own, nothing to log here!
+            # Deal with a potential response (aka Notification)
+            notifTimeout = 5.0 # in seconds
+            if self._btConnection.waitForNotifications(notifTimeout):
+                # self.neewerResponseDelegate.handleNotification() is called here
+                logging.debug("Data received from notification: %s", self._btResponseDelegate.data)
+            else:
+                logging.debug('No response received in {} seconds'.format(notifTimeout))
 
         except Exception as e:
             logging.error('Failed to send message: {}'.format(e))
@@ -120,7 +150,7 @@ class NeewerServer:
         """
 
         try:
-            for service in self._btconnection.getServices():
+            for service in self._btConnection.getServices():
                 for charac in service.getCharacteristics():
                     logging.info("UUID: " + str(charac.uuid))
                     logging.info("Properties: " + str(charac.properties))
@@ -131,6 +161,22 @@ class NeewerServer:
 
         except Exception as e:
             logging.error('Failed to scan device: {}'.format(e))
+
+
+class neewerResponseDelegate(btle.DefaultDelegate):
+    """
+    Listen for responses from Neewer Device
+
+    Notifications are processed by bluepy's Delegate class
+    which is registered with the Peripheral (_btConnection)
+    """
+
+    def __init__(self):
+        btle.DefaultDelegate.__init__(self)
+
+
+    def handleNotification(self, cHandle, data):
+        logging.debug('Received notification (cHandle={}): {}'.format(cHandle, data))
 
 
 def main():
