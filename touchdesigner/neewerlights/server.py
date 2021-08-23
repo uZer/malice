@@ -8,11 +8,13 @@ from bluepy import btle
 
 class NeewerServer:
     """
-    A small UDP server to communicate with Neewer RGB 660
+    A small UDP server to communicate with Neewer RGB 660 lights
     """
 
     def __init__(self, neewerAddress, listenAddress="0.0.0.0", listenPort=1664):
         """
+        Init Neewer Server
+
         :param neewerAddress: Hardware address of the Neewer light
         :param listenAddress: Listening address for the server.
         :param listenPort: Listening port for the server.
@@ -24,27 +26,44 @@ class NeewerServer:
         self.listenPort = listenPort
 
 
-    def udpServe(self):
-        logging.debug("Launching UDP server...")
+    def startUDPServer(self):
+        logging.info("Starting UDP server...")
 
         try:
             self._socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
             self._socket.bind((self.listenAddress, self.listenPort))
-            logging.info("Server is running!")
-            logging.info("Please send your messages to {}:{}".format(
-                self.listenAddress, self.listenPort))
+            logging.info('UDP Server started.')
+            logging.info('Please send your messages to {}:{}'.format(
+                self.listenAddress, self.listenPort
+            ))
             while(True):
                 addr = self._socket.recvfrom(1024)
                 command = addr[0]
                 address = addr[1]
-                logging.debug("{} received message: {}".format(address, command))
+                logging.debug("{} - {}".format(address, command))
                 self.neewerSend(command, 14)
-
 
         except Exception as e:
             logging.error('UDP Server failed: {}'.format(e))
             self._socket = None
             return False
+
+        return True
+
+
+    def stopUDPServer(self):
+        """
+        Stop receiving UDP messages
+        """
+        logging.info("Stopping UDP Server...")
+
+        try:
+            self._socket.close()
+
+        except Exception:
+            pass
+
+        self._socket = None
 
 
     def neewerConnect(self, btAdapter=0):
@@ -54,6 +73,9 @@ class NeewerServer:
             connection = btle.Peripheral(self.neewerAddress,
                                          btle.ADDR_TYPE_RANDOM, btAdapter)
             self._btconnection = connection.withDelegate(self)
+            logging.info('Connected to Neewer device {}'.format(
+                self.neewerAddress
+            ))
 
         except RuntimeError as e:
             logging.error('Connection failed : {}'.format(e))
@@ -77,8 +99,38 @@ class NeewerServer:
         self._btconnection = None
 
 
-    def neewerSend(self, message, handler=14):
-        self._btconnection.writeCharacteristic(handler, message)
+    def neewerSend(self, message, handle=14):
+        """
+        Send bytes to Neewer Device
+
+        :param message: bytes to pass to the device
+        :param handle: handle to use to communicate
+        """
+
+        try:
+            self._btconnection.writeCharacteristic(handle, message)
+
+        except Exception as e:
+            logging.error('Failed to send message: {}'.format(e))
+
+
+    def neewerScan(self):
+        """
+        Scan the Neewer device for Services and Characteristics
+        """
+
+        try:
+            for service in self._btconnection.getServices():
+                for charac in service.getCharacteristics():
+                    logging.info("UUID: " + str(charac.uuid))
+                    logging.info("Properties: " + str(charac.properties))
+                    logging.info("Supports Read: " + str(charac.supportsRead()))
+                    logging.info("Properties To String: " + str(charac.propertiesToString()))
+                    logging.info("Handle: " + str(charac.getHandle()))
+                    logging.info("")
+
+        except Exception as e:
+            logging.error('Failed to scan device: {}'.format(e))
 
 
 def main():
@@ -89,8 +141,8 @@ def main():
 
     nee = NeewerServer(neewerAddress, listenAddress, listenPort)
     nee.neewerConnect()
-    logging.info('Connected to Neewer device!')
-    nee.udpServe()
+    #  nee.neewerScan()
+    nee.startUDPServer()
 
 
 if __name__ == '__main__':
