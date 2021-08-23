@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+NeewerServer is a small UDP server able to associate with a Neewer RGB 660 LED
+Light pannel (Bluetooth Low Energy connection). All UDP messages will be passed
+to the bluetooth device.
+"""
 import logging
 import socket
 import sys
@@ -38,19 +43,19 @@ class NeewerServer:
         try:
             self._udpSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
             self._udpSocket.bind((self.listenAddress, self.listenPort))
-            logging.info('UDP Server started.')
-            logging.info('Please send your messages to {}:{}'.format(
+            logging.info("UDP Server started.")
+            logging.info("Please send your messages to %s:%s",
                 self.listenAddress, self.listenPort
-            ))
+            )
             while True:
                 addr = self._udpSocket.recvfrom(1024)
                 command = addr[0]
                 address = addr[1]
-                logging.debug("{} - {}".format(address, command))
+                logging.debug("%s - %s", address, command)
                 self.neewerSend(command, 14)
 
         except Exception as e:
-            logging.error('UDP Server failed: {}'.format(e))
+            logging.error("UDP Server failed: %s", e)
             self._udpSocket = None
             return False
 
@@ -90,15 +95,13 @@ class NeewerServer:
             # According to the source code, setDelegate is deprecated
             # https://github.com/IanHarvey/bluepy/blob/master/bluepy/btle.py#L413
             # withDelegate does the same
-            self._btResponseDelegate = neewerResponseDelegate()
+            self._btResponseDelegate = NeewerResponseDelegate()
             self._btConnection = connection.withDelegate(self._btResponseDelegate)
 
-            logging.info('Connected to Neewer device {}'.format(
-                self.neewerAddress
-            ))
+            logging.info('Connected to Neewer device %s', self.neewerAddress)
 
         except RuntimeError as e:
-            logging.error('Connection failed : {}'.format(e))
+            logging.error('Connection failed: %s', e)
             return False
 
         return True
@@ -135,13 +138,13 @@ class NeewerServer:
             # Deal with a potential response (aka Notification)
             notifTimeout = 2.0 # in seconds
             if self._btConnection.waitForNotifications(notifTimeout):
-                # self.neewerResponseDelegate.handleNotification() is called here
+                # self.NeewerResponseDelegate.handleNotification() is called here
                 logging.debug("Data received from notification: %s", self._btResponseDelegate.data)
             else:
-                logging.debug('No response received in {} seconds'.format(notifTimeout))
+                logging.debug('No response received in %s seconds', notifTimeout)
 
         except Exception as e:
-            logging.error('Failed to send message: {}'.format(e))
+            logging.error('Failed to send message: %s', e)
 
 
     def neewerScan(self):
@@ -152,18 +155,18 @@ class NeewerServer:
         try:
             for service in self._btConnection.getServices():
                 for charac in service.getCharacteristics():
-                    logging.info("UUID: " + str(charac.uuid))
-                    logging.info("Properties: " + str(charac.properties))
-                    logging.info("Supports Read: " + str(charac.supportsRead()))
-                    logging.info("Properties To String: " + str(charac.propertiesToString()))
-                    logging.info("Handle: " + str(charac.getHandle()))
+                    logging.info("UUID: %s", charac.uuid)
+                    logging.info("Properties: %s", charac.properties)
+                    logging.info("Supports Read: %s", charac.supportsRead())
+                    logging.info("Properties To String: %s", charac.propertiesToString())
+                    logging.info("Handle: %s", charac.getHandle())
                     logging.info("")
 
         except Exception as e:
-            logging.error('Failed to scan device: {}'.format(e))
+            logging.error('Failed to scan device: %s', e)
 
 
-class neewerResponseDelegate(btle.DefaultDelegate):
+class NeewerResponseDelegate(btle.DefaultDelegate):
     """
     Listen for responses from Neewer Device
 
@@ -173,13 +176,18 @@ class neewerResponseDelegate(btle.DefaultDelegate):
 
     def __init__(self):
         btle.DefaultDelegate.__init__(self)
+        self.data = None
 
 
     def handleNotification(self, cHandle, data):
-        logging.debug('Received notification (cHandle={}): {}'.format(cHandle, data))
+        logging.debug('Received notification (cHandle=%s): %s', cHandle, data)
+        self.data = data
 
 
 def main():
+    """
+    Connect to a Neewer RGB Light, listen to UDP messages
+    """
     logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
     neewerAddress = "D1:28:C0:6B:32:34"
     listenAddress = "0.0.0.0"
