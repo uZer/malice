@@ -133,7 +133,7 @@ class NeewerServer:
 
             ## Should be already called on it's own, nothing to log here!
             # Deal with a potential response (aka Notification)
-            notifTimeout = 5.0 # in seconds
+            notifTimeout = 2.0 # in seconds
             if self._btConnection.waitForNotifications(notifTimeout):
                 # self.neewerResponseDelegate.handleNotification() is called here
                 logging.debug("Data received from notification: %s", self._btResponseDelegate.data)
