@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import logging
 import socket
@@ -36,8 +37,8 @@ class NeewerServer:
                 addr = self._socket.recvfrom(1024)
                 command = addr[0]
                 address = addr[1]
-                logging.debug("{} running command: {}".format(address, command))
-                self.neewerSend(command)
+                logging.debug("{} received message: {}".format(address, command))
+                self.neewerSend(command, 14)
 
 
         except Exception as e:
