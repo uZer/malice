@@ -227,9 +227,9 @@ def main():
     logging.basicConfig(
         format='%(levelname)s:%(message)s', level=logging.DEBUG
     )
-    neewerAddress = "FF:66:65:A0:C9:94"
+    neewerAddress = "DD:9D:97:26:4F:45"
     listenAddress = "0.0.0.0"
-    listenPort = 1664
+    listenPort = 1662
 
     nee = NeewerServer(neewerAddress, listenAddress, listenPort)
     nee.neewerConnect()

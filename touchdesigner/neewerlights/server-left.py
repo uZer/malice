@@ -229,7 +229,7 @@ def main():
     )
     neewerAddress = "FF:66:65:A0:C9:94"
     listenAddress = "0.0.0.0"
-    listenPort = 1664
+    listenPort = 1661
 
     nee = NeewerServer(neewerAddress, listenAddress, listenPort)
     nee.neewerConnect()
