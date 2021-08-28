@@ -7,6 +7,7 @@ Light pannel (Bluetooth Low Energy connection). All UDP messages will be passed
 to the bluetooth device.
 """
 
+import argparse
 import logging
 import socket
 import sys
@@ -220,6 +221,39 @@ class NeewerResponseDelegate(btle.DefaultDelegate):
         self.data = data
 
 
+def get_params():
+    """
+    Read parameters
+    """
+    parser = argparse.ArgumentParser(description='Python tool to control Neewer '
+                                                 'RGB Lights over Bluetooth')
+    parser.add_argument('-a', '--udp_listen_addr',
+                        default='0.0.0.0',
+                        dest='udp_listen_addr',
+                        help='Address to use for the UDP server. '
+                             'Default: 0.0.0.0')
+    parser.add_argument('-p', '--udp_listen_port',
+                        default='1664',
+                        dest='udp_listen_port',
+                        type=int,
+                        help='Port to use for the UDP server '
+                             'Default: 1664')
+    parser.add_argument('-l', '--list_commands',
+                        dest='list_commands',
+                        help='List available commands',
+                        action='store_true')
+    parser.add_argument('-c', '--command',
+                        default='serve',
+                        dest='command',
+                        help='Command to execute. '
+                             'Available commands: scan, serve (default: serve)')
+    parser.add_argument('-m', '--mac_address',
+                        dest='mac_address',
+                        required=True,
+                        help='Device mac address. Must be set.')
+    return parser.parse_args()
+
+
 def main():
     """
     Connect to a Neewer RGB Light, listen to UDP messages
@@ -227,14 +261,19 @@ def main():
     logging.basicConfig(
         format='%(levelname)s:%(message)s', level=logging.DEBUG
     )
-    neewerAddress = "FF:66:65:A0:C9:94"
-    listenAddress = "0.0.0.0"
-    listenPort = 1664
 
-    nee = NeewerServer(neewerAddress, listenAddress, listenPort)
+    params = get_params()
+    nee = NeewerServer(params.mac_address,
+                       params.udp_listen_addr,
+                       params.udp_listen_port)
     nee.neewerConnect()
-    #  nee.neewerScan()
-    nee.startUDPServer()
+
+    if params.command == "scan":
+        nee.neewerScan()
+    elif params.command == "serve":
+        nee.startUDPServer()
+    else:
+        logging.error("Invalid argument")
 
 
 if __name__ == '__main__':
