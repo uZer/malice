@@ -1,4 +1,0 @@
-#!/bin/sh
-
-## RIGHT
-./server.py -m 'D1:28:C0:6B:32:34' -p 1663

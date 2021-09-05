@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# CENTER
-./server.py -m 'DD:9D:97:26:4F:45' -p 1662

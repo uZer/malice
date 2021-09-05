@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# LEFT
-./server.py -m 'FF:66:65:A0:C9:94' -p 1661
