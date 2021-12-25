@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T14:37:23.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZatAonDMde2gfpwRaqsP" version="16.1.0" type="github">
-  <diagram id="ELtGg_1qUfuwR7gkKYxx" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-12-25T14:56:03.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NSJzZfVpTKsVXX6SKPEb" version="16.1.0" type="github" pages="2">
+  <diagram id="ELtGg_1qUfuwR7gkKYxx" name="midi">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="OFPPjJ_pjtsV8Xjg3ejc-212" value="notes" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#EBB525;fillColor=#EBB525;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
           <mxGeometry x="830" y="240" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OFPPjJ_pjtsV8Xjg3ejc-193" value="notes" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#EBB525;fillColor=#EBB525;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
+        <mxCell id="OFPPjJ_pjtsV8Xjg3ejc-193" value="notes" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#EBB525;fillColor=#EBB525;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;imageAspect=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="120" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OFPPjJ_pjtsV8Xjg3ejc-196" value="clock" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#CC3868;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
@@ -240,6 +240,20 @@
         </mxCell>
         <mxCell id="OFPPjJ_pjtsV8Xjg3ejc-208" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=14;fontColor=#FFFFFF;endArrow=openThin;endFill=0;endSize=6;targetPerimeterSpacing=0;strokeColor=#00A08F;strokeWidth=4;" edge="1" parent="1" source="OFPPjJ_pjtsV8Xjg3ejc-143" target="OFPPjJ_pjtsV8Xjg3ejc-204">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F4_arWiFKGy640Rom1Zm" name="audio">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3_4sDywqF6uCleDI_eV6-0" />
+        <mxCell id="3_4sDywqF6uCleDI_eV6-1" parent="3_4sDywqF6uCleDI_eV6-0" />
+        <mxCell id="Rd73Q7GhSGAxbIx12SRk-0" value="digitakt" style="group;fillColor=#FCF1D4;strokeColor=#EBB525;fontColor=#EBB525;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=10;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;" vertex="1" connectable="0" parent="3_4sDywqF6uCleDI_eV6-1">
+          <mxGeometry x="240" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd73Q7GhSGAxbIx12SRk-5" value="keystep" style="rounded=1;labelBackgroundColor=none;fontSize=15;strokeWidth=4;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#EBB525;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;arcSize=10;shadow=0;glass=0;allowArrows=0;connectable=0;perimeterSpacing=0;labelBorderColor=none;whiteSpace=wrap;html=1;noLabel=0;recursiveResize=1;sketch=0;" vertex="1" parent="3_4sDywqF6uCleDI_eV6-1">
+          <mxGeometry x="240" y="320" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
