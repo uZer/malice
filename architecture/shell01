@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T15:03:14.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="aXrOIJN62ja9Tfgjk_Ns" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-25T15:19:52.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="5Iu90gD014p0XtDxb7Tx" version="16.1.0" type="github" pages="2">
   <diagram id="ELtGg_1qUfuwR7gkKYxx" name="midi">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -252,30 +252,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="F4_arWiFKGy640Rom1Zm" name="audio">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3_4sDywqF6uCleDI_eV6-0" />
         <mxCell id="3_4sDywqF6uCleDI_eV6-1" parent="3_4sDywqF6uCleDI_eV6-0" />
         <mxCell id="_zKQPHFj7xpVFN0HxNpU-0" value="digitakt" style="group;fillColor=#FCF1D4;strokeColor=#EBB525;fontColor=#EBB525;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=10;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;" vertex="1" connectable="0" parent="3_4sDywqF6uCleDI_eV6-1">
           <mxGeometry x="120" y="160" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_zKQPHFj7xpVFN0HxNpU-1" value="i" style="group" vertex="1" connectable="0" parent="3_4sDywqF6uCleDI_eV6-1">
-          <mxGeometry x="240" y="160" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_zKQPHFj7xpVFN0HxNpU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;comic=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#457B9D;strokeColor=none;strokeWidth=5;fillColor=none;resizable=0;noLabel=1;connectable=0;allowArrows=0;snapToPoint=0;fixDash=1;container=0;expand=0;backgroundOutline=0;movable=0;movableLabel=0;" vertex="1" parent="_zKQPHFj7xpVFN0HxNpU-1">
-          <mxGeometry width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_zKQPHFj7xpVFN0HxNpU-3" value="L" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSize=14;strokeColor=#EBB525;strokeWidth=4;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;spacing=0;spacingLeft=0;fontColor=#EBB525;backgroundOutline=0;collapsible=0;dropTarget=0;container=1;perimeter=ellipsePerimeter;fixDash=1;fontStyle=1;metaEdit=0;resizable=0;moveCells=0;comic=0;allowArrows=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;" vertex="1" parent="_zKQPHFj7xpVFN0HxNpU-1">
-          <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_zKQPHFj7xpVFN0HxNpU-4" value="i" style="group" vertex="1" connectable="0" parent="3_4sDywqF6uCleDI_eV6-1">
-          <mxGeometry x="240" y="200" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_zKQPHFj7xpVFN0HxNpU-5" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;comic=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#457B9D;strokeColor=none;strokeWidth=5;fillColor=none;resizable=0;noLabel=1;connectable=0;allowArrows=0;snapToPoint=0;fixDash=1;container=0;expand=0;backgroundOutline=0;movable=0;movableLabel=0;" vertex="1" parent="_zKQPHFj7xpVFN0HxNpU-4">
-          <mxGeometry width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_zKQPHFj7xpVFN0HxNpU-6" value="R" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSize=14;strokeColor=#EBB525;strokeWidth=4;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;spacing=0;spacingLeft=0;fontColor=#EBB525;backgroundOutline=0;collapsible=0;dropTarget=0;container=1;perimeter=ellipsePerimeter;fixDash=1;fontStyle=1;metaEdit=0;resizable=0;moveCells=0;comic=0;allowArrows=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;" vertex="1" parent="_zKQPHFj7xpVFN0HxNpU-4">
-          <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
