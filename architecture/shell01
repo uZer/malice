@@ -1,17 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T03:53:26.384Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="dSMKRMg87_3SipniTJT7" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-25T13:31:22.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xI6HN2VQZGc8Jvw4wUC7" version="16.1.0" type="github">
   <diagram id="ELtGg_1qUfuwR7gkKYxx" name="Page-1">
-    <mxGraphModel dx="868" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nyQT_G1HHHYtTVnwC0iU-26" value="" style="group;fillColor=#AFEEE8;strokeColor=#00A08F;fontColor=#1D3557;fontStyle=4;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=10;imageHeight=24;glass=0;sketch=1;" parent="1" vertex="1" connectable="0">
+        <mxCell id="nyQT_G1HHHYtTVnwC0iU-29" value="digitakt" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#00A08F;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;arcSize=10;shadow=0;glass=0;allowArrows=0;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="240" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nyQT_G1HHHYtTVnwC0iU-28" value="midi" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeColor=#457B9D;strokeWidth=1;fillColor=#A8DADC;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="210.00333333333333" y="400" width="17.241379310344826" height="17.241379310344826" as="geometry" />
-        </mxCell>
-        <mxCell id="nyQT_G1HHHYtTVnwC0iU-29" value="digitakt" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;align=center;spacing=0;spacingLeft=0;fillColor=#00A08F;fontColor=#FFFFFF;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="160" y="280" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nyQT_G1HHHYtTVnwC0iU-30" value="thru" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=10;strokeColor=#457B9D;strokeWidth=1;fillColor=#A8DADC;align=center;verticalAlign=top;whiteSpace=wrap;html=1;spacing=0;spacingLeft=2;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="210.00333333333333" y="480" width="17.241379310344826" height="17.241379310344826" as="geometry" />
@@ -20,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nyQT_G1HHHYtTVnwC0iU-60" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="160" y="320" width="40" height="40" as="geometry" />
+          <mxGeometry x="480" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nyQT_G1HHHYtTVnwC0iU-61" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;comic=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#457B9D;strokeColor=none;strokeWidth=5;fillColor=none;resizable=0;noLabel=1;connectable=0;allowArrows=0;snapToPoint=0;fixDash=1;container=0;expand=0;backgroundOutline=0;movable=0;movableLabel=0;" parent="nyQT_G1HHHYtTVnwC0iU-60" vertex="1">
           <mxGeometry width="40" height="40" as="geometry" />
@@ -33,6 +30,9 @@
         </mxCell>
         <mxCell id="nyQT_G1HHHYtTVnwC0iU-67" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;comic=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#457B9D;strokeColor=none;strokeWidth=5;fillColor=none;resizable=0;noLabel=1;connectable=0;allowArrows=0;snapToPoint=0;fixDash=1;container=0;expand=0;backgroundOutline=0;movable=0;movableLabel=0;" parent="nyQT_G1HHHYtTVnwC0iU-66" vertex="1">
           <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQT_G1HHHYtTVnwC0iU-26" value="" style="group;fillColor=#AFEEE8;strokeColor=#00A08F;fontColor=#1D3557;fontStyle=4;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=10;imageHeight=24;glass=0;sketch=1;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="200" width="360" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
