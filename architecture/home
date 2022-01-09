@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-01-09T23:20:02.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Q_Q9xb6K0rK_IzRBRzET" version="16.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-09T23:23:36.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gODrGufy2dr5LTZAvu9_" version="16.2.3" type="github">
   <diagram id="ttuhspzFaOhHvVqYSoJF" name="midi">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HC1J_14uREtHX1dTLmVM-100" value="clock" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#CC3868;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HC1J_14uREtHX1dTLmVM-99" value="notes" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#EBB525;fillColor=#EBB525;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="60" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="HC1J_14uREtHX1dTLmVM-95" value="clock" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#CC3868;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
           <mxGeometry x="585" y="120" width="60" height="20" as="geometry" />
         </mxCell>
@@ -44,7 +50,7 @@
           <mxGeometry x="310" y="140" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HC1J_14uREtHX1dTLmVM-73" value="clock" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#CC3868;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="300" width="60" height="20" as="geometry" />
+          <mxGeometry x="310" y="320" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HC1J_14uREtHX1dTLmVM-2" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="120" y="200" width="40" height="40" as="geometry" />
@@ -209,8 +215,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="580" y="260" />
-              <mxPoint x="580" y="320" />
-              <mxPoint x="100" y="320" />
+              <mxPoint x="580" y="340" />
+              <mxPoint x="100" y="340" />
               <mxPoint x="100" y="260" />
             </Array>
           </mxGeometry>
@@ -219,8 +225,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="620" y="220" />
-              <mxPoint x="620" y="360" />
-              <mxPoint x="60" y="360" />
+              <mxPoint x="620" y="380" />
+              <mxPoint x="60" y="380" />
               <mxPoint x="60" y="220" />
             </Array>
           </mxGeometry>
@@ -248,6 +254,16 @@
         </mxCell>
         <mxCell id="HC1J_14uREtHX1dTLmVM-88" value="midi patch" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#00A08F;fillColor=#00A08F;fontSize=23;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HC1J_14uREtHX1dTLmVM-97" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=10;fontColor=default;endArrow=openThin;endFill=0;endSize=6;targetPerimeterSpacing=0;strokeColor=#00A08F;strokeWidth=4;" edge="1" parent="1" source="HC1J_14uREtHX1dTLmVM-14" target="HC1J_14uREtHX1dTLmVM-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="180" />
+              <mxPoint x="660" y="420" />
+              <mxPoint x="20" y="420" />
+              <mxPoint x="20" y="140" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
