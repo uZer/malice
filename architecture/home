@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T00:51:11.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="4wkr7OhgV9vECELH2pls" version="16.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-10T00:52:38.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="qHpfqIWlTY4x3KyDxpCg" version="16.2.3" type="github" pages="2">
   <diagram id="ttuhspzFaOhHvVqYSoJF" name="midi">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -177,8 +177,8 @@
         <mxCell id="HC1J_14uREtHX1dTLmVM-86" value="out" style="ellipse;aspect=fixed;rounded=0;labelBackgroundColor=none;fontFamily=Raleway;fontSize=14;strokeColor=#00A08F;strokeWidth=4;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;spacing=0;spacingLeft=0;fontColor=#00A08F;backgroundOutline=0;collapsible=0;dropTarget=0;container=1;perimeter=ellipsePerimeter;fixDash=1;fontStyle=1;metaEdit=0;resizable=0;moveCells=0;comic=0;allowArrows=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;" vertex="1" parent="HC1J_14uREtHX1dTLmVM-84">
           <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HC1J_14uREtHX1dTLmVM-88" value="midi patch" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#00A08F;fillColor=#00A08F;fontSize=23;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="180" height="40" as="geometry" />
+        <mxCell id="HC1J_14uREtHX1dTLmVM-88" value="desktop midi patch (preset 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#00A08F;fillColor=#00A08F;fontSize=23;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="920" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HC1J_14uREtHX1dTLmVM-114" value="ableton" style="group;fillColor=#E5E3F2;strokeColor=#6153AC;fontColor=#6153AC;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=20;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;hachureGap=2;hachureAngle=-45;absoluteArcSize=1;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="160" y="160" width="160" height="160" as="geometry" />
