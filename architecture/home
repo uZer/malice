@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T01:03:46.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="f44lsl9Rq8xXwTJihSN-" version="16.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-10T01:07:59.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="cRTtsGdLGSFt8czy7DKV" version="16.2.3" type="github" pages="2">
   <diagram id="ttuhspzFaOhHvVqYSoJF" name="midi">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nf4IKxc77gHhz_gf2v5n-7" value="" style="group;fillColor=#E5E3F2;strokeColor=#6153AC;fontColor=#6153AC;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=20;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;absoluteArcSize=1;hachureAngle=-41;zigzagOffset=-1;sketchStyle=rough;" vertex="1" connectable="0" parent="1">
+        <mxCell id="nf4IKxc77gHhz_gf2v5n-7" value="" style="group;fillColor=#E5E3F2;strokeColor=#6153AC;fontColor=#6153AC;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=20;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;absoluteArcSize=1;hachureAngle=-41;zigzagOffset=-1;sketchStyle=rough;opacity=50;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="80" y="120" width="960" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="nf4IKxc77gHhz_gf2v5n-6" value="" style="group;fillColor=#FFE0EA;strokeColor=#CC3868;fontColor=#CC3868;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=10;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;hachureAngle=-41;zigzagOffset=-1;sketchStyle=rough;" vertex="1" connectable="0" parent="1">
+        <mxCell id="nf4IKxc77gHhz_gf2v5n-6" value="" style="group;fillColor=#FFE0EA;strokeColor=#CC3868;fontColor=#CC3868;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=10;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;hachureAngle=-41;zigzagOffset=-1;sketchStyle=rough;opacity=50;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="80" y="390" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nf4IKxc77gHhz_gf2v5n-5" value="" style="group;fillColor=#AFEEE8;strokeColor=#00A08F;fontColor=#00A08F;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=20;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;absoluteArcSize=1;hachureAngle=-41;zigzagOffset=-1;sketchStyle=rough;" vertex="1" connectable="0" parent="1">
+        <mxCell id="nf4IKxc77gHhz_gf2v5n-5" value="" style="group;fillColor=#AFEEE8;strokeColor=#00A08F;fontColor=#00A08F;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=20;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=middle;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;absoluteArcSize=1;hachureAngle=-41;zigzagOffset=-1;sketchStyle=rough;opacity=50;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="80" y="460" width="960" height="300" as="geometry" />
         </mxCell>
         <mxCell id="HC1J_14uREtHX1dTLmVM-93" value="midihub" style="group;fillColor=#AFEEE8;strokeColor=#00A08F;fontColor=#00A08F;fontStyle=1;container=0;strokeWidth=2;perimeterSpacing=0;shadow=0;rounded=1;arcSize=20;imageHeight=24;glass=0;sketch=1;allowArrows=0;verticalAlign=top;fontFamily=Raleway;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;html=0;hachureGap=2;hachureAngle=-45;absoluteArcSize=1;sketchStyle=comic;" vertex="1" connectable="0" parent="1">
@@ -554,20 +554,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nf4IKxc77gHhz_gf2v5n-2" value="virtual" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#FFFFFF;fontSize=15;fontFamily=Raleway;fontColor=#CC3868;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1;strokeWidth=2;sketch=0;shadow=0;glass=0;perimeterSpacing=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="940" y="410" width="80" height="20" as="geometry" />
+        <mxCell id="nf4IKxc77gHhz_gf2v5n-2" value="midihub virtual" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#FFFFFF;fontSize=15;fontFamily=Raleway;fontColor=#CC3868;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1;strokeWidth=2;sketch=0;shadow=0;glass=0;perimeterSpacing=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="410" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nf4IKxc77gHhz_gf2v5n-3" value="physical" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#00A08F;fillColor=#FFFFFF;fontSize=15;fontFamily=Raleway;fontColor=#00A08F;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1;strokeWidth=2;sketch=0;shadow=0;glass=0;perimeterSpacing=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="940" y="720" width="80" height="20" as="geometry" />
+        <mxCell id="nf4IKxc77gHhz_gf2v5n-3" value="midihub physical" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#00A08F;fillColor=#FFFFFF;fontSize=15;fontFamily=Raleway;fontColor=#00A08F;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1;strokeWidth=2;sketch=0;shadow=0;glass=0;perimeterSpacing=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="720" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nf4IKxc77gHhz_gf2v5n-4" value="usb" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#6153AC;fillColor=#FFFFFF;fontSize=15;fontFamily=Raleway;fontColor=#6153AC;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1;strokeWidth=2;sketch=0;shadow=0;glass=0;perimeterSpacing=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="940" y="140" width="80" height="20" as="geometry" />
+        <mxCell id="nf4IKxc77gHhz_gf2v5n-4" value="midihub usb" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#6153AC;fillColor=#FFFFFF;fontSize=15;fontFamily=Raleway;fontColor=#6153AC;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1;strokeWidth=2;sketch=0;shadow=0;glass=0;perimeterSpacing=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="140" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="D4dt6rrE38DUHqoovHZ0" name="midi summary">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="j-zd6G1jsQvYOQyFLgjb-0" />
         <mxCell id="j-zd6G1jsQvYOQyFLgjb-1" parent="j-zd6G1jsQvYOQyFLgjb-0" />
@@ -666,6 +666,9 @@
         </mxCell>
         <mxCell id="C-8kRCunvswUKv1266kl-5" value="clock" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#CC3868;fillColor=#CC3868;fontSize=14;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;" vertex="1" parent="j-zd6G1jsQvYOQyFLgjb-1">
           <mxGeometry x="830" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zeQeFZNK3ycxydtvATBV-0" value="desktop midi patch (preset 1) - summary" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=#00A08F;fillColor=#00A08F;fontSize=23;fontFamily=Raleway;fontColor=#FFFFFF;rounded=1;allowArrows=0;spacingLeft=2;spacingRight=2;connectable=0;expand=0;resizeWidth=1;recursiveResize=0;perimeter=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;fontStyle=1" vertex="1" parent="j-zd6G1jsQvYOQyFLgjb-1">
+          <mxGeometry x="80" y="-40" width="1000" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
