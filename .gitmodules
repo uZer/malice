@@ -1,0 +1,6 @@
+[submodule "neewerserver"]
+	path = installations/neewerserver
+	url = git@github.com:null-part/neewerserver.git
+[submodule "installations/neewerserver"]
+	path = installations/neewerserver
+	url = git@github.com:null-part/neewerserver.git

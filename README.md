@@ -1,8 +1,8 @@
-# music mess
+# malice
 
-Random files related to music production and experimentation.
+Random files related to music production and av experimentation.
 
-Music projects:
+Audio visual projects:
 
 - [schematicwizard](https://soundcloud.com/schematic-wizard)
 - [null.part](https://www.youtube.com/channel/UC4JVI_EYEBemyLXnycJA0gg/featured)
